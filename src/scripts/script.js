@@ -21,6 +21,9 @@ function updateBatteryStatus(battery) {
         charging.style.transform = 'translateY(210px)';
     }
 
+    if(battery.level <= 0.15)
+        level.style.backgroundColor = '#ed3b3b'
+
 }
     
 
